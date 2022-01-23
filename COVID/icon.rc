@@ -1,0 +1,33 @@
+A ICON "../icon/icon.ico"
+bgm ICON "../icon/bgm.ico"
+open ICON "../icon/open.ico"
+save ICON "../icon/save.ico"
+saveas ICON "../icon/saveas.ico"
+help ICON "../icon/help.ico"
+close ICON "../icon/close.ico"
+
+#include <winver.h>
+
+VS_VERSION_INFO VERSIONINFO
+    FILEVERSION 1,0,0,0
+    PRODUCTVERSION 1,0,0,0
+    BEGIN
+        BLOCK "StringFileInfo"
+        BEGIN
+            BLOCK "080404b0"
+            BEGIN
+                VALUE "CompanyName",      "ZJU"                  //公司名称
+                VALUE "FileDescription",  "2020 C大程 35组"                  //文件说明
+                VALUE "InternalName",     "疫情可视化工具"                  //内部文件名
+                VALUE "ProductName",      "疫情可视化工具"                  //产品名称
+                VALUE "OriginalFilename", "main.exe"                    //原始文件名
+                VALUE "LegalCopyright",   "Copyright (C) 2020"        //版权
+                VALUE "ProductVersion",   "1.0.0.0"                       //产品版本号
+                VALUE "FileVersion",      "1.0.0.0"                       //文件版本
+            END
+        END
+        BLOCK "VarFileInfo"
+        BEGIN
+            VALUE "Translation", 0x804, 1200
+        END
+    END
